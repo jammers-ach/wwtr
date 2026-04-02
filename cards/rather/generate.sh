@@ -15,18 +15,17 @@ while IFS= read -r line; do
         name="sheet_${sheet_num}.svg"
 
         if [[ -f "$name" ]]; then
-            echo "$name" exists, aborting
-            exit 0
+            echo "$name" exists, skipping
+        else
+            cp "$TEMPLATE" "$name"
+
+            text_num=1
+            for line in "${lines_buffer[@]}"; do
+                sed -i "s|Text $text_num|$(printf '%s' "$line" | sed 's/[&/\]/\\&/g')|g" "$name"
+                echo "$sheet_num.$text_num: $line"
+                ((text_num++))
+            done
         fi
-
-        cp "$TEMPLATE" "$name"
-
-        text_num=1
-        for line in "${lines_buffer[@]}"; do
-            sed -i "s|Text $text_num|$(printf '%s' "$line" | sed 's/[&/\]/\\&/g')|g" "$name"
-            echo "$sheet_num.$text_num: $line"
-            ((text_num++))
-        done
         ((sheet_num++))
         lines_buffer=()
     fi
@@ -35,14 +34,18 @@ done < "$INPUT"
 # Handle remaining lines (less than 8)
 if [ "${#lines_buffer[@]}" -gt 0 ]; then
     name="sheet_${sheet_num}.svg"
-    cp "$TEMPLATE" "$name"
+    if [[ -f "$name" ]]; then
+        echo "$name" exists, skipping
+    else
+        cp "$TEMPLATE" "$name"
 
-    text_num=1
-    for line in "${lines_buffer[@]}"; do
-        sed -i "s|Text $text_num|$(printf '%s' "$line" | sed 's/[&/\]/\\&/g')|g" "$name"
-        echo "$sheet_num.$text_num: $line"
-        ((text_num++))
-    done
+        text_num=1
+        for line in "${lines_buffer[@]}"; do
+            sed -i "s|Text $text_num|$(printf '%s' "$line" | sed 's/[&/\]/\\&/g')|g" "$name"
+            echo "$sheet_num.$text_num: $line"
+            ((text_num++))
+        done
+    fi
 fi
 
 echo "Finished generating sheets."
