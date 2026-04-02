@@ -1,10 +1,8 @@
 #!/bin/bash
-
-
 set -euo pipefail
 
 INPUT="list.txt"
-TEMPLATE="A5_rather_template.svg"
+TEMPLATE="${1:-A5_template.svg}"
 sheet_num=1
 
 
@@ -15,6 +13,12 @@ while IFS= read -r line; do
     lines_buffer+=("$line")
     if [ "${#lines_buffer[@]}" -eq 8 ]; then
         name="sheet_${sheet_num}.svg"
+
+        if [[ -f "$name" ]]; then
+            echo "$name" exists, aborting
+            exit 0
+        fi
+
         cp "$TEMPLATE" "$name"
 
         text_num=1
