@@ -190,7 +190,7 @@ def main() -> int:
     cadence = determine_num_cards(template)
     word_list = list_file.open().readlines()
 
-    if len(image_paths) > 0 and len(image_paths) != len(word_list):
+    if image_paths and len(image_paths) > 0 and len(image_paths) != len(word_list):
         print(f"WARNING: {len(image_paths)} images found, but {len(word_list)} phrases")
 
     cards = apply_template(template, word_list, cadence, template_file, image_paths)
