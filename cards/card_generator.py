@@ -25,7 +25,7 @@ def determine_num_cards(template: str) -> int:
     return len(nums)
 
 
-def update_svg_image(svg_string: str, search_text: str, image_path: str) -> str:
+def update_svg_image(svg_string: str, search_text: str, image_path: str, template_path: Path) -> str:
     """
     Finds a <tspan> containing exactly `search_text`, then finds the next <image> element
     after it in document order, updates its href, and adjusts width/height to fit while
@@ -103,18 +103,23 @@ def update_svg_image(svg_string: str, search_text: str, image_path: str) -> str:
         x += (old_w/2) - (fitted_w/2)
         image_el.set("x", str(x))
 
+    if fitted_h < old_h:
+        x = float(image_el.get("y"))
+        x += (old_h/2) - (fitted_h/2)
+        image_el.set("y", str(x))
+
 
     # --- Update href ---
     # SVG 2 prefers plain "href", but many SVGs still use xlink:href
-    image_el.set(f"{{{ns['xlink']}}}href", image_path.name)
-    image_el.set("href", image_path.name)
+    new_path = image_path.parent.relative_to(template_path.parent) / image_path.name
+    image_el.set(f"{{{ns['xlink']}}}href", str(new_path))
+    image_el.set("href", str(new_path))
 
-    print(image_path)
 
     # --- Serialize back to string ---
     return ET.tostring(root, encoding="unicode")
 
-def apply_template(template: str, texts:str, cadence:int, image_names = {}) -> [str]:
+def apply_template(template: str, texts:str, cadence:int, template_path:Path, image_names = {}) -> [str]:
     '''takes the template, and makes N new files, with <cadence> cards in each
     will apply the texts to each card, and if image_names is specified, it will load in all the iamge names'''
     loop = lambda lst,n: [lst[i:i+n] for i in range (0, len(lst), n)]
@@ -126,7 +131,7 @@ def apply_template(template: str, texts:str, cadence:int, image_names = {}) -> [
             list_i, text = indexed_text
             if image_names:
                 image = image_names.get(list_i+1, "")
-                d = update_svg_image(d, f"Text {template_i+1}", image )
+                d = update_svg_image(d, f"Text {template_i+1}", image, template_path)
 
             d = d.replace(f"Text {template_i+1}", text.replace("\n",""))
         documents.append(d)
@@ -188,7 +193,7 @@ def main() -> int:
     if len(image_paths) > 0 and len(image_paths) != len(word_list):
         print(f"WARNING: {len(image_paths)} images found, but {len(word_list)} phrases")
 
-    cards = apply_template(template, word_list, cadence, image_paths)
+    cards = apply_template(template, word_list, cadence, template_file, image_paths)
 
     genfname = lambda orig, number: orig.replace("template", f"sheet{number:02d}")
 

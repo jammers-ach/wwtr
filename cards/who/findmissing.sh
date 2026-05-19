@@ -10,7 +10,7 @@ while IFS= read -r line; do
     
     count_c=$(printf "%03d\n" "$count")
     shopt -s nullglob
-    files=("${count_c}"*)
+    files=("images/${count_c}"*)
     if (( ${#files[@]} > 0 )); then
         echo "$count_c -    OK   - $line"
     else
