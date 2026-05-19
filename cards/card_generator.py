@@ -97,6 +97,13 @@ def update_svg_image(svg_string: str, search_text: str, image_path: str) -> str:
     image_el.set("width", str(fitted_w))
     image_el.set("height", str(fitted_h))
 
+    # Adjust the offset if the new width is different
+    if fitted_w < old_w:
+        x = float(image_el.get("x"))
+        x += (old_w/2) - (fitted_w/2)
+        image_el.set("x", str(x))
+
+
     # --- Update href ---
     # SVG 2 prefers plain "href", but many SVGs still use xlink:href
     image_el.set(f"{{{ns['xlink']}}}href", image_path.name)
