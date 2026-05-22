@@ -2,6 +2,7 @@
 import argparse
 import sys
 import re
+import os
 from pathlib import Path
 
 from xml.etree import ElementTree as ET
@@ -25,7 +26,7 @@ def determine_num_cards(template: str) -> int:
     return len(nums)
 
 
-def update_svg_image(svg_string: str, search_text: str, image_path: str, template_path: Path) -> str:
+def update_svg_image(svg_string: str, search_text: str, image_path: str, output_path: Path) -> str:
     """
     Finds a <tspan> containing exactly `search_text`, then finds the next <image> element
     after it in document order, updates its href, and adjusts width/height to fit while
@@ -111,7 +112,7 @@ def update_svg_image(svg_string: str, search_text: str, image_path: str, templat
 
     # --- Update href ---
     # SVG 2 prefers plain "href", but many SVGs still use xlink:href
-    new_path = image_path.parent.relative_to(template_path.parent) / image_path.name
+    new_path = Path(os.path.relpath(image_path.absolute().parent, output_path.absolute())) / image_path.name
     image_el.set(f"{{{ns['xlink']}}}href", str(new_path))
     image_el.set("href", str(new_path))
 
@@ -119,7 +120,7 @@ def update_svg_image(svg_string: str, search_text: str, image_path: str, templat
     # --- Serialize back to string ---
     return ET.tostring(root, encoding="unicode")
 
-def apply_template(template: str, texts:str, cadence:int, template_path:Path, image_names = {}) -> [str]:
+def apply_template(template: str, texts:str, cadence:int, output_path:Path, image_names = {}) -> [str]:
     '''takes the template, and makes N new files, with <cadence> cards in each
     will apply the texts to each card, and if image_names is specified, it will load in all the iamge names'''
     loop = lambda lst,n: [lst[i:i+n] for i in range (0, len(lst), n)]
@@ -131,7 +132,7 @@ def apply_template(template: str, texts:str, cadence:int, template_path:Path, im
             list_i, text = indexed_text
             if image_names:
                 image = image_names.get(list_i+1, "")
-                d = update_svg_image(d, f"Text {template_i+1}", image, template_path)
+                d = update_svg_image(d, f"Text {template_i+1}", image, output_path)
 
             d = d.replace(f"Text {template_i+1}", text.replace("\n",""))
         documents.append(d)
@@ -150,6 +151,7 @@ def main() -> int:
     parser.add_argument("list_file", help="Path to the the list file")
     parser.add_argument("template_file", help="Path to the template file")
     parser.add_argument("--image_dir", help="Path to the image dir")
+    parser.add_argument("--output_dir", help="Path to the output dir (default same as template dir)")
 
     args = parser.parse_args()
 
@@ -166,6 +168,15 @@ def main() -> int:
         die(f"list file does not exist: {template_file}")
     if not template_file.is_file():
         die(f"list file is not a file: {template_file}")
+
+    if args.output_dir:
+        output_dir = Path(args.output_dir)
+        if not output_dir.exists():
+            die(f"output directory does not exist: {output_dir}")
+        if not output_dir.is_dir():
+            die(f"output directory is not directory: {output_dir}")
+    else:
+        output_dir = template_file.parent
 
     image_paths = None
     if args.image_dir:
@@ -193,15 +204,16 @@ def main() -> int:
     if image_paths and len(image_paths) > 0 and len(image_paths) != len(word_list):
         print(f"WARNING: {len(image_paths)} images found, but {len(word_list)} phrases")
 
-    cards = apply_template(template, word_list, cadence, template_file, image_paths)
+    cards = apply_template(template, word_list, cadence, output_dir, image_paths)
 
     genfname = lambda orig, number: orig.replace("template", f"sheet{number:02d}")
 
     for i, card in enumerate(cards):
-        new_fname = genfname(args.template_file, i+1)
-        with open(new_fname, "w") as f:
+        new_fname = genfname(template_file.name, i+1)
+
+        with open(output_dir / new_fname, "w") as f:
             f.write(card)
-        print(f"written {new_fname}")
+        print(f"written {output_dir / new_fname}")
 
     return 0
 
