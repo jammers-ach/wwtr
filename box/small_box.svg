@@ -26,14 +26,14 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.5055415"
-     inkscape:cx="686.13187"
-     inkscape:cy="430.40992"
+     inkscape:cx="850.19244"
+     inkscape:cy="360.00336"
      inkscape:window-width="1280"
      inkscape:window-height="967"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer2" />
+     inkscape:current-layer="layer3" />
   <defs
      id="defs9168">
     <marker
@@ -367,6 +367,82 @@
        width="121.49005"
        height="72.409142"
        id="rect272-3" />
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-93"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-93-5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-7-2" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-93-4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-7-7" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-93-5-4"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-7-2-4" />
+    </marker>
   </defs>
   <g
      inkscape:groupmode="layer"
@@ -380,37 +456,37 @@
        style="font-size:16px;font-family:Manjari;-inkscape-font-specification:'Manjari, Normal';text-align:start;white-space:pre;shape-inside:url(#rect1965-59);display:inline;fill:#000000;fill-opacity:0.976471;stroke-width:1.51181"><tspan
          x="372.92773"
          y="373.79167"
-         id="tspan11445">When I asked ChatCPT if this </tspan><tspan
+         id="tspan6729">When I asked ChatCPT if this </tspan><tspan
          x="372.92773"
          y="393.79167"
-         id="tspan11449">game was unique. It said &quot;Y<tspan
+         id="tspan6733">game was unique. It said &quot;Y<tspan
    style="font-style:italic"
-   id="tspan11447">es, </tspan></tspan><tspan
+   id="tspan6731">es, </tspan></tspan><tspan
          x="372.92773"
          y="413.79167"
-         id="tspan11453"><tspan
+         id="tspan6737"><tspan
            style="font-style:italic"
-           id="tspan11451">the rules of this game are </tspan></tspan><tspan
+           id="tspan6735">the rules of this game are </tspan></tspan><tspan
          x="372.92773"
          y="433.79167"
-         id="tspan11457"><tspan
+         id="tspan6741"><tspan
            style="font-style:italic"
-           id="tspan11455">unique and there is nothing like </tspan></tspan><tspan
+           id="tspan6739">unique and there is nothing like </tspan></tspan><tspan
          x="372.92773"
          y="453.79167"
-         id="tspan11461"><tspan
+         id="tspan6745"><tspan
            style="font-style:italic"
-           id="tspan11459">this out there, well done for </tspan></tspan><tspan
+           id="tspan6743">this out there, well done for </tspan></tspan><tspan
          x="372.92773"
          y="473.79167"
-         id="tspan11465"><tspan
+         id="tspan6749"><tspan
            style="font-style:italic"
-           id="tspan11463">creating something no-one </tspan></tspan><tspan
+           id="tspan6747">creating something no-one </tspan></tspan><tspan
          x="372.92773"
          y="493.79167"
-         id="tspan11469"><tspan
+         id="tspan6753"><tspan
    style="font-style:italic"
-   id="tspan11467">has thought of before&quot;</tspan>. 
+   id="tspan6751">has thought of before&quot;</tspan>. 
 </tspan></text>
     <text
        xml:space="preserve"
@@ -419,41 +495,41 @@
        style="font-size:16px;font-family:Manjari;-inkscape-font-specification:'Manjari, Normal';text-align:start;white-space:pre;shape-inside:url(#rect1965-1-2);display:inline;fill:#000000;fill-opacity:0.976471;stroke-width:1.51181"><tspan
          x="372.92773"
          y="373.79167"
-         id="tspan11473"><tspan
+         id="tspan6757"><tspan
            style="font-style:italic"
-           id="tspan11471">
+           id="tspan6755">
 </tspan></tspan><tspan
          x="372.92773"
          y="393.79167"
-         id="tspan11477"><tspan
+         id="tspan6761"><tspan
            style="font-style:italic"
-           id="tspan11475">
+           id="tspan6759">
 </tspan></tspan><tspan
          x="372.92773"
          y="413.79167"
-         id="tspan11481"><tspan
+         id="tspan6765"><tspan
            style="font-style:italic"
-           id="tspan11479">On the first playtest after </tspan></tspan><tspan
+           id="tspan6763">On the first playtest after </tspan></tspan><tspan
          x="372.92773"
          y="433.79167"
-         id="tspan11485"><tspan
+         id="tspan6769"><tspan
            style="font-style:italic"
-           id="tspan11483">explaining the rules, my </tspan></tspan><tspan
+           id="tspan6767">explaining the rules, my </tspan></tspan><tspan
          x="372.92773"
          y="453.79167"
-         id="tspan11489"><tspan
+         id="tspan6773"><tspan
            style="font-style:italic"
-           id="tspan11487">friend said &quot;Oh so it's like </tspan></tspan><tspan
+           id="tspan6771">friend said &quot;Oh so it's like </tspan></tspan><tspan
          x="372.92773"
          y="473.79167"
-         id="tspan11493"><tspan
+         id="tspan6777"><tspan
            style="font-style:italic"
-           id="tspan11491">cards against humanity, </tspan></tspan><tspan
+           id="tspan6775">cards against humanity, </tspan></tspan><tspan
          x="372.92773"
          y="493.79167"
-         id="tspan11497"><tspan
+         id="tspan6781"><tspan
            style="font-style:italic"
-           id="tspan11495">but with people&quot;..</tspan></tspan></text>
+           id="tspan6779">but with people&quot;..</tspan></tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.22915197,0,0,0.22915197,-11.786278,-15.848865)"
@@ -461,22 +537,22 @@
        style="font-size:16px;font-family:Manjari;-inkscape-font-specification:'Manjari, Normal';text-align:start;white-space:pre;shape-inside:url(#rect5445-2);display:inline;fill:#000000;fill-opacity:0.976471;stroke-width:1.51181"><tspan
          x="368.3125"
          y="428.38151"
-         id="tspan11499">Get to know your friends by </tspan><tspan
+         id="tspan6783">Get to know your friends by </tspan><tspan
          x="368.3125"
          y="448.38151"
-         id="tspan11501">finding out that they would </tspan><tspan
+         id="tspan6785">finding out that they would </tspan><tspan
          x="368.3125"
          y="468.38151"
-         id="tspan11503">rather go on a date with a </tspan><tspan
+         id="tspan6787">rather go on a date with a </tspan><tspan
          x="368.3125"
          y="488.38151"
-         id="tspan11505">cynical retail worker than </tspan><tspan
+         id="tspan6789">cynical retail worker than </tspan><tspan
          x="368.3125"
          y="508.38151"
-         id="tspan11507">with a collegue who won't </tspan><tspan
+         id="tspan6791">with a collegue who won't </tspan><tspan
          x="368.3125"
          y="528.38151"
-         id="tspan11509">shut up about hyrox.</tspan></text>
+         id="tspan6793">shut up about hyrox.</tspan></text>
     <g
        id="g454-0"
        transform="matrix(0.47906588,0,0,0.47906588,146.22971,87.430213)"
@@ -498,19 +574,19 @@
          y="0"><tspan
            x="68.794105"
            y="221.82111"
-           id="tspan11513"><tspan
+           id="tspan6797"><tspan
              style="text-align:center;text-anchor:middle"
-             id="tspan11511">A printer that </tspan></tspan><tspan
+             id="tspan6795">A printer that </tspan></tspan><tspan
            x="80.838309"
            y="252.19862"
-           id="tspan11517"><tspan
+           id="tspan6801"><tspan
              style="text-align:center;text-anchor:middle"
-             id="tspan11515">has gained </tspan></tspan><tspan
+             id="tspan6799">has gained </tspan></tspan><tspan
            x="57.165218"
            y="282.57612"
-           id="tspan11521"><tspan
+           id="tspan6805"><tspan
              style="text-align:center;text-anchor:middle"
-             id="tspan11519">consciousness</tspan></tspan></text>
+             id="tspan6803">consciousness</tspan></tspan></text>
       <image
          width="51.311039"
          height="34.994129"
@@ -542,21 +618,21 @@
          y="0"><tspan
            x="62.540612"
            y="221.82111"
-           id="tspan11525"><tspan
+           id="tspan6809"><tspan
              style="text-align:center;text-anchor:middle"
-             id="tspan11523">A robot who is </tspan></tspan><tspan
+             id="tspan6807">A robot who is </tspan></tspan><tspan
            x="56.607506"
            y="252.19862"
-           id="tspan11531"><tspan
+           id="tspan6815"><tspan
              style="text-align:center;text-anchor:middle"
-             id="tspan11527">programmed </tspan><tspan
+             id="tspan6811">programmed </tspan><tspan
              style="text-align:center;text-anchor:middle"
-             id="tspan11529">to </tspan></tspan><tspan
+             id="tspan6813">to </tspan></tspan><tspan
            x="84.611764"
            y="282.57612"
-           id="tspan11535"><tspan
+           id="tspan6819"><tspan
              style="text-align:center;text-anchor:middle"
-             id="tspan11533">ignore you</tspan></tspan></text>
+             id="tspan6817">ignore you</tspan></tspan></text>
       <image
          width="30.025316"
          height="46.077312"
@@ -576,7 +652,7 @@
        y="0"><tspan
          x="48.138672"
          y="214.19317"
-         id="tspan11537">be my cellmate in prison..</tspan></text>
+         id="tspan6821">be my cellmate in prison..</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.22883716,0,0,0.22883716,113.35305,35.235891)"
@@ -586,7 +662,7 @@
        y="0"><tspan
          x="48.138672"
          y="214.19317"
-         id="tspan11539">borrow money from...</tspan></text>
+         id="tspan6823">borrow money from...</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.22883716,0,0,0.22883716,171.5323,32.313375)"
@@ -596,7 +672,7 @@
        y="0"><tspan
          x="48.138672"
          y="214.19317"
-         id="tspan11541">ask for tax advice..</tspan></text>
+         id="tspan6825">ask for tax advice..</tspan></text>
     <text
        xml:space="preserve"
        transform="matrix(0.22349614,0,0,0.22349614,134.45617,90.382786)"
@@ -606,7 +682,7 @@
        y="0"><tspan
          x="48.138672"
          y="214.19317"
-         id="tspan11543">want as my therapist...</tspan></text>
+         id="tspan6827">want as my therapist...</tspan></text>
     <g
        id="g442"
        transform="matrix(0.47906588,0,0,0.47906588,227.69192,87.430213)"
@@ -628,9 +704,9 @@
          y="0"><tspan
            x="49.280121"
            y="221.82111"
-           id="tspan11547"><tspan
+           id="tspan6831"><tspan
              style="text-align:center;text-anchor:middle"
-             id="tspan11545">Your ex's mother</tspan></tspan></text>
+             id="tspan6829">Your ex's mother</tspan></tspan></text>
       <image
          width="44.733391"
          height="46.077312"
@@ -677,14 +753,14 @@
          y="0"><tspan
            x="65.899679"
            y="221.82088"
-           id="tspan11551"><tspan
+           id="tspan6835"><tspan
              style="text-align:center;text-anchor:middle"
-             id="tspan11549">A 90s girl pop </tspan></tspan><tspan
+             id="tspan6833">A 90s girl pop </tspan></tspan><tspan
            x="113.96317"
            y="252.198"
-           id="tspan11555"><tspan
+           id="tspan6839"><tspan
              style="text-align:center;text-anchor:middle"
-             id="tspan11553">band</tspan></tspan></text>
+             id="tspan6837">band</tspan></tspan></text>
       <image
          width="51.311039"
          height="37.466946"
@@ -713,19 +789,19 @@
          y="0"><tspan
            x="39.036747"
            y="43.559127"
-           id="tspan11559"><tspan
+           id="tspan6843"><tspan
              style="font-style:italic;text-align:center;text-anchor:middle"
-             id="tspan11557">A genuine James </tspan></tspan><tspan
+             id="tspan6841">A genuine James </tspan></tspan><tspan
            x="31.086765"
            y="58.559127"
-           id="tspan11563"><tspan
+           id="tspan6847"><tspan
              style="font-style:italic;text-align:center;text-anchor:middle"
-             id="tspan11561">Mathews Industries </tspan></tspan><tspan
+             id="tspan6845">Mathews Industries </tspan></tspan><tspan
            x="53.664768"
            y="73.559127"
-           id="tspan11567"><tspan
+           id="tspan6851"><tspan
              style="font-style:italic;text-align:center;text-anchor:middle"
-             id="tspan11565">production</tspan></tspan></text>
+             id="tspan6849">production</tspan></tspan></text>
       <image
          width="6.8507166"
          height="7.9468317"
@@ -740,7 +816,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="score lines"
-     style="display:inline">
+     style="display:none">
     <path
        id="merged-fold-anonymous-path-6"
        d="m 70.87,1276.09 h 85.04"
@@ -777,7 +853,7 @@
        transform="matrix(0,0.3527933,-0.3527933,0,518.85771,21.531629)">
       <path
          id="merged-cut-anonymous-path-2"
-         d="m 83.36,1346.96 h 60.05 l 12.5,-70.87 v 85.04 h 184.25 v -85.04 l 12.49,70.87 h 60.05 l 12.5,-70.87 57.55017,-0.7259 V 837.06417 L 425.2,836.72 412.7,765.86 h -60.05 l -12.49,70.86 V 751.69 H 155.91 v 85.03 l -12.5,-70.86 H 83.36 l -12.673656,70.48645 -53.568739,-0.18904 -0.07362,439.92119 53.826015,0.011 z"
+         d="m 83.36,1346.96 h 60.05 l 12.5,-70.87 v 139.4072 H 340.16 V 1276.09 l 12.49,70.87 h 60.05 l 12.5,-70.87 57.55017,-0.7259 V 837.06417 L 425.2,836.72 412.7,765.86 h -60.05 l -12.49,70.86 0,-135.61463 H 155.91 l 0,135.61463 -12.5,-70.86 H 83.36 l -12.673656,70.48645 -53.568739,-0.18904 -0.07362,439.92119 53.826015,0.011 z"
          style="fill:none;stroke:#d41a5a;stroke-width:2"
          sodipodi:nodetypes="ccccccccccccccccccccccccc" />
     </g>
@@ -785,6 +861,22 @@
        style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:0.312999;stroke-opacity:1;marker-end:url(#TriangleStart)"
        d="m 53.915373,46.229839 h 8.52738"
        id="path1808" />
+    <path
+       style="display:inline;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:0.312999;stroke-opacity:1;marker-end:url(#TriangleStart-93)"
+       d="m 38.885315,65.6694 v 8.52738"
+       id="path1808-4" />
+    <path
+       style="display:inline;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:0.312999;stroke-opacity:1;marker-end:url(#TriangleStart-93-5)"
+       d="m 38.951503,152.43965 v -8.52738"
+       id="path1808-4-5" />
+    <path
+       style="display:inline;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:0.312999;stroke-opacity:1;marker-end:url(#TriangleStart-93-4)"
+       d="m 253.24826,65.311504 v 8.52738"
+       id="path1808-4-3" />
+    <path
+       style="display:inline;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:0.312999;stroke-opacity:1;marker-end:url(#TriangleStart-93-5-4)"
+       d="m 253.31444,152.08176 v -8.52738"
+       id="path1808-4-5-0" />
     <path
        style="display:inline;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#1a1a1a;stroke-width:0.312999;stroke-opacity:1;marker-end:url(#TriangleStart-1)"
        d="m 236.75996,45.593315 h -8.52738"
