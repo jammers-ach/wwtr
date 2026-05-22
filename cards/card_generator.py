@@ -13,7 +13,7 @@ def determine_num_cards(template: str) -> int:
     '''determines how many cards there are in the templates'''
     # the templates have their placeholders in 'Text X'
     # go through and find out how many, and check theat are in sequential order
-    matches = re.findall(r"\bText ([0-9])\b", template)
+    matches = re.findall(r"\bText ([0-9]+)\b", template)
     nums = sorted([int(x) for x in matches])
 
     for a,b in  zip(nums, nums[1:]):
@@ -129,12 +129,13 @@ def apply_template(template: str, texts:str, cadence:int, output_path:Path, imag
     for a in loop(list(enumerate(texts)), cadence):
         d = template
         for template_i, indexed_text in enumerate(a):
+            template_i = cadence - template_i
             list_i, text = indexed_text
             if image_names:
                 image = image_names.get(list_i+1, "")
-                d = update_svg_image(d, f"Text {template_i+1}", image, output_path)
+                d = update_svg_image(d, f"Text {template_i}", image, output_path)
 
-            d = d.replace(f"Text {template_i+1}", text.replace("\n",""))
+            d = d.replace(f"Text {template_i}", text.replace("\n",""))
         documents.append(d)
 
     return documents
