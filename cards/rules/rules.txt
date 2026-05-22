@@ -1,21 +1,10 @@
-# Who Would They Rather?
-
-Who would Alice rather *go on a date with*?
-
-- A personification of the world's largest prime number  
-- The donkey from *Shrek*  
-- Six angry geese  
-- A talking cat who is incredibly judgmental of your outfit choices  
-
-## How does it work?
-
 There are two types of cards: **Who** cards and **Rather** cards.
 
-Each player is dealt **4 Who cards**. The remaining Who cards are placed face down in a draw pile.
+Each player is dealt **5 Who cards**. The remaining Who cards are placed face down in a draw pile.
 
 The Rather cards are also placed face down in their own pile.
 
-### Gameplay
+# Gameplay
 
 One player becomes the judge for the round (for example, Alice).
 
@@ -35,18 +24,10 @@ Alice then chooses the card that best answers the question (the one she would *r
 
 The player who submitted that card reveals themselves and wins the round, keeping the Rather card as a point.
 
-### Next round
+# Next round
 
-The next player becomes the judge, draws a new Rather card, and everyone else draws a new Who card so they are back up to 4 cards.
+The next player becomes the judge, draws a new Rather card, and everyone else draws a new Who card so they are back up to 5 cards.
 
+# Winner
 
-
-# Printing the game
-
-The game can be printed in 2 ways:
-* Small cards (small A7 cards)
-* Large cards (size of playing cards)
-
-There are templates for each size, if you are printing on A4 or A5 card.
-
-the templates, box and rule cards in the appropriate directories
+Once all the who cards are delt (or when you have had enough) the person with the most Rather cards is the winner.
