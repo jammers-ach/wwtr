@@ -211,6 +211,7 @@ def main() -> int:
 
     for i, card in enumerate(cards):
         new_fname = genfname(template_file.name, i+1)
+        card = card.replace("Sheet X", f"Sheet {i+1}")
 
         with open(output_dir / new_fname, "w") as f:
             f.write(card)

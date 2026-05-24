@@ -26,10 +26,10 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.9373815"
-     inkscape:cx="314.17304"
-     inkscape:cy="504.59711"
-     inkscape:window-width="1920"
-     inkscape:window-height="1023"
+     inkscape:cx="1021.4624"
+     inkscape:cy="77.87651"
+     inkscape:window-width="1280"
+     inkscape:window-height="967"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -130,9 +130,9 @@
                y="0"><tspan
                  x="113.53466"
                  y="215.45098"
-                 id="tspan3594"><tspan
+                 id="tspan559"><tspan
                    style="font-size:11.3258px;text-align:center;text-anchor:middle"
-                   id="tspan3592">Text 1</tspan></tspan></text>
+                   id="tspan557">Text 1</tspan></tspan></text>
             <image
                width="28.163355"
                height="25.290693"
@@ -163,9 +163,9 @@
                y="0"><tspan
                  x="112.52817"
                  y="215.45098"
-                 id="tspan3598"><tspan
+                 id="tspan563"><tspan
                    style="font-size:11.3258px;text-align:center;text-anchor:middle"
-                   id="tspan3596">Text 5</tspan></tspan></text>
+                   id="tspan561">Text 5</tspan></tspan></text>
             <image
                width="28.163355"
                height="25.290693"
@@ -196,9 +196,9 @@
                y="0"><tspan
                  x="112.36227"
                  y="215.45098"
-                 id="tspan3602"><tspan
+                 id="tspan567"><tspan
                    style="font-size:11.3258px;text-align:center;text-anchor:middle"
-                   id="tspan3600">Text 6</tspan></tspan></text>
+                   id="tspan565">Text 6</tspan></tspan></text>
             <image
                width="28.163355"
                height="25.290693"
@@ -229,9 +229,9 @@
                y="0"><tspan
                  x="112.56688"
                  y="215.45098"
-                 id="tspan3606"><tspan
+                 id="tspan571"><tspan
                    style="font-size:11.3258px;text-align:center;text-anchor:middle"
-                   id="tspan3604">Text 2</tspan></tspan></text>
+                   id="tspan569">Text 2</tspan></tspan></text>
             <image
                width="28.163355"
                height="25.290693"
@@ -262,9 +262,9 @@
                y="0"><tspan
                  x="112.79362"
                  y="215.45098"
-                 id="tspan3610"><tspan
+                 id="tspan575"><tspan
                    style="font-size:11.3258px;text-align:center;text-anchor:middle"
-                   id="tspan3608">Text 3</tspan></tspan></text>
+                   id="tspan573">Text 3</tspan></tspan></text>
             <image
                width="28.163355"
                height="25.290693"
@@ -295,9 +295,9 @@
                y="0"><tspan
                  x="112.41757"
                  y="215.45098"
-                 id="tspan3614"><tspan
+                 id="tspan579"><tspan
                    style="font-size:11.3258px;text-align:center;text-anchor:middle"
-                   id="tspan3612">Text 7</tspan></tspan></text>
+                   id="tspan577">Text 7</tspan></tspan></text>
             <image
                width="28.163355"
                height="25.290693"
@@ -328,9 +328,9 @@
                y="0"><tspan
                  x="112.70514"
                  y="215.45098"
-                 id="tspan3618"><tspan
+                 id="tspan583"><tspan
                    style="font-size:11.3258px;text-align:center;text-anchor:middle"
-                   id="tspan3616">Text 8</tspan></tspan></text>
+                   id="tspan581">Text 8</tspan></tspan></text>
             <image
                width="28.163355"
                height="25.290693"
@@ -361,9 +361,9 @@
                y="0"><tspan
                  x="112.06364"
                  y="215.45098"
-                 id="tspan3622"><tspan
+                 id="tspan587"><tspan
                    style="font-size:11.3258px;text-align:center;text-anchor:middle"
-                   id="tspan3620">Text 4</tspan></tspan></text>
+                   id="tspan585">Text 4</tspan></tspan></text>
             <image
                width="28.163355"
                height="25.290693"
@@ -393,6 +393,18 @@
            x="-98.717499"
            y="-56.562874"
            id="tspan3472"> when reverse printing</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:2.11667px;font-family:Manjari;-inkscape-font-specification:'Manjari, Normal';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:0.976471;fill-rule:evenodd;stroke:none;stroke-width:0.1565"
+         x="-16.267698"
+         y="80.720284"
+         id="text2860-7"
+         transform="rotate(-90)"><tspan
+           sodipodi:role="line"
+           style="fill:#000000;stroke:none;stroke-width:0.1565"
+           x="-16.267698"
+           y="80.720284"
+           id="tspan3472-3">Sheet X</tspan></text>
     </g>
   </g>
 </svg>
