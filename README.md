@@ -49,4 +49,6 @@ The game can be printed in 2 ways:
 
 There are templates for each size, if you are printing on A4 or A5 card.
 
-the templates, box and rule cards in the appropriate directories
+The templates, box and rule cards in the appropriate directories
+
+There's a script to generate cards from the templates, or the pre-filled can be found in the printing directory
