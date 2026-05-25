@@ -1,5 +1,5 @@
 Flat box for small cards:
-65mm x 155mm x 30mm LID(27mm)
+65mm x 155mm x 30mm LID(29mm)
 
 Flat box for large cards:
-67mm x 190mm x 30mm LID(27mm)
+67mm x 190mm x 33mm LID(32mm)
