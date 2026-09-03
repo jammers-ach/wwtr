@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   id="svg2"
+   width="234.33067"
+   height="351.496"
+   viewBox="0 0 234.33067 351.496"
+   sodipodi:docname="playingcard-87x56_who_sheet72.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath18">
+      <path
+         d="M 0,263.622 H 175.748 V 0 H 0 Z"
+         id="path16" />
+    </clipPath>
+    <rect
+       x="44.753609"
+       y="199.19678"
+       width="176.20751"
+       height="107.92757"
+       id="rect2630-3" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.9215967"
+     inkscape:cx="-2.3418025"
+     inkscape:cy="200.87462"
+     inkscape:window-width="1920"
+     inkscape:window-height="1023"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g10">
+    <inkscape:page
+       x="0"
+       y="0"
+       id="page8"
+       width="234.33067"
+       height="351.496" />
+  </sodipodi:namedview>
+  <g
+     id="g10"
+     inkscape:groupmode="layer"
+     inkscape:label="Page 1"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,351.496)">
+    <g
+       id="g12">
+      <g
+         id="g14"
+         clip-path="url(#clipPath18)">
+        <g
+           id="g20"
+           transform="translate(155.1912,8.5039)">
+          <path
+             d="m 0,0 h -134.634 c -6.657,0 -12.053,5.396 -12.053,12.053 v 222.508 c 0,6.657 5.396,12.053 12.053,12.053 H 0 c 6.657,0 12.053,-5.396 12.053,-12.053 V 12.053 C 12.053,5.396 6.657,0 0,0 Z"
+             style="fill:none;stroke:#ee252c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path22" />
+        </g>
+        <g
+           id="g24"
+           transform="translate(148.7565,19.8425)">
+          <path
+             d="m 0,0 h -121.765 c -3.948,0 -7.149,3.201 -7.149,7.149 v 209.639 c 0,3.948 3.201,7.149 7.149,7.149 H 0 c 3.948,0 7.149,-3.201 7.149,-7.149 V 7.149 C 7.149,3.201 3.948,0 0,0 Z"
+             style="fill:none;stroke:#40b93c;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:4.021, 4.021;stroke-dashoffset:0;stroke-opacity:1"
+             id="path26" />
+        </g>
+        <text
+           xml:space="preserve"
+           transform="matrix(1,0,0,-1,78.9995,256.9687)"
+           style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.4802px;font-family:'Myriad Pro';-inkscape-font-specification:MyriadPro-Regular;writing-mode:lr-tb;fill:#ee252c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text30"><tspan
+             x="0 3.6872337 7.2448635 10.815454 14.502687"
+             y="0"
+             sodipodi:role="line"
+             id="tspan28">Coupe</tspan></text>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,63.7456,246.0137)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.4802px;font-family:'Myriad Pro';-inkscape-font-specification:MyriadPro-Regular;writing-mode:lr-tb;fill:#40b93c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text34"><tspan
+         x="0 5.2489619 8.3724184 10.44025 14.062682 17.309261 18.683065 22.337898 25.584478 26.958281 29.524439 32.771019 35.674149 39.24474 41.389687 42.906052 45.012115"
+         y="0"
+         sodipodi:role="line"
+         id="tspan32">Marge de sécurité</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.75000003,0,0,-0.75000003,-11.92565,235.37197)"
+       id="text414"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:Manjari;-inkscape-font-specification:'Manjari, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect2630-3);shape-padding:3.38594;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.51181;stroke-opacity:1"
+       x="96.479385"
+       y="0"><tspan
+         x="52.730285"
+         y="214.19317"
+         id="tspan987"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan985">Someone who can carry </tspan></tspan><tspan
+         x="73.981961"
+         y="232.52654"
+         id="tspan991"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan989">an unusually large </tspan></tspan><tspan
+         x="78.454302"
+         y="250.85992"
+         id="tspan995"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan993">number of beers </tspan></tspan><tspan
+         x="60.024247"
+         y="269.19329"
+         id="tspan999"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan997">successfully in a busy </tspan></tspan><tspan
+         x="119.35348"
+         y="287.52667"
+         id="tspan1003"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan1001">club</tspan></tspan></text>
+    <image
+       width="118.00581"
+       height="166.29137"
+       preserveAspectRatio="none"
+       xlink:href="../../who/images/072-carry.png"
+       id="image416"
+       x="29.031431"
+       y="-241.81152"
+       transform="scale(1,-1)"
+       href="../../who/images/072-carry.png" />
+  </g>
+</svg>
