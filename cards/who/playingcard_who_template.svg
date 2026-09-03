@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="62mm"
+   height="88mm"
+   viewBox="0 0 62.000001 88"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="playingcard_who_back.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.332716"
+     inkscape:cx="79.161652"
+     inkscape:cy="92.292732"
+     inkscape:window-width="1280"
+     inkscape:window-height="967"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="44.753609"
+       y="199.19678"
+       width="204.14527"
+       height="107.47684"
+       id="rect2630" />
+    <rect
+       x="44.753609"
+       y="199.19678"
+       width="193.12183"
+       height="130.8688"
+       id="rect2630-3" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-6.6277961,1.2466242)"
+       id="text414"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:Manjari;-inkscape-font-specification:'Manjari, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect2630-3);shape-padding:3.38594;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.51181;stroke-opacity:1"
+       x="96.479385"
+       y="0"><tspan
+         x="121.67411"
+         y="214.19317"
+         id="tspan922"><tspan
+           style="text-align:center;text-anchor:middle"
+           id="tspan920">Text 1</tspan></tspan></text>
+    <image
+       width="51.311039"
+       height="46.077312"
+       preserveAspectRatio="none"
+       xlink:href="images/011-drunkclown.png"
+       id="image416"
+       x="5.07728"
+       y="5.5637422" />
+  </g>
+</svg>
