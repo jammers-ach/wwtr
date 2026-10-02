@@ -3,3 +3,6 @@ Flat box for small cards:
 
 Flat box for large cards:
 67mm x 190mm x 33mm LID(32mm)
+
+Flat box for printed cards from AZAO:
+118mm x 89mm x 40mm LID(40mm)

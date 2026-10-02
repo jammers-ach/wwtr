@@ -3,7 +3,7 @@
 
 ## Generation
 
-* Go to https://www.templatemaker.nl/en/
+* Go to https://www.templatemaker.nl/en/boxlid/
 * Select Box with lid
 * Enter dimentions
 * Download the PDF
